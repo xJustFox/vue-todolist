@@ -9,11 +9,34 @@
     background-image: url(/img/lakeside-sunrise-early-morning-minimal-art-gradient-7680x3215-4587.png);
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .box{
-    height: 500px;
-    max-width: 600px;
+    min-width: 410px;
+    max-width: 30%;
     border-radius: 10px;
     background-color: rgba(209, 226, 235, 0.53);
 }
+
+ul > *{
+    margin-bottom: 20px;
+    border-bottom:1px solid black ;
+}
+
+.my-pointer{
+    cursor: pointer;
+}
+
+.my-marg > *{
+    margin-right: 18px;
+}
+
+.bg-125768{
+    background-color: #125768;
+}
+
+.bg-125768:hover{
+    background-color: #125768c1;
+}
+
