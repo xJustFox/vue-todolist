@@ -3,6 +3,7 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
+            newTask: '',
             todo_list: [
                 {
                     text: "Doing homework",
